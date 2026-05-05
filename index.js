@@ -7,6 +7,7 @@ h2Name.innerText = "Texto h2"
 document.getElementById("app").appendChild(h2Name)
 
 const iptName = document.getElementById("iptName");
+const iptNumber2 = document.getElementById("iptNumber2");
 
 function showName() {
     console.log(iptName.value)
